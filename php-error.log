@@ -1,0 +1,88 @@
+[04-Apr-2022 05:51:13 Europe/Berlin] Inicio de app web
+[04-Apr-2022 05:51:13 Europe/Berlin] APP::CONSTRUCT-> no hay controlador especificado
+[04-Apr-2022 05:51:13 Europe/Berlin] Login::construct -> inicio de Login
+[04-Apr-2022 05:51:13 Europe/Berlin] Login::render -> Carga index login
+[04-Apr-2022 05:51:13 Europe/Berlin] Aqui termina la pagina
+[04-Apr-2022 05:51:13 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[05-Apr-2022 00:14:51 Europe/Berlin] Inicio de app web
+[05-Apr-2022 00:14:51 Europe/Berlin] APP::CONSTRUCT-> no hay controlador especificado
+[05-Apr-2022 00:14:51 Europe/Berlin] Login::construct -> inicio de Login
+[05-Apr-2022 00:14:51 Europe/Berlin] Login::render -> Carga index login
+[05-Apr-2022 00:14:51 Europe/Berlin] Aqui termina la pagina
+[05-Apr-2022 00:14:51 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[05-Apr-2022 22:59:59 Europe/Berlin] Inicio de app web
+[05-Apr-2022 22:59:59 Europe/Berlin] APP::CONSTRUCT-> no hay controlador especificado
+[05-Apr-2022 22:59:59 Europe/Berlin] Login::construct -> inicio de Login
+[05-Apr-2022 22:59:59 Europe/Berlin] Login::render -> Carga index login
+[05-Apr-2022 22:59:59 Europe/Berlin] Aqui termina la pagina
+[05-Apr-2022 22:59:59 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[06-Apr-2022 00:34:46 Europe/Berlin] Inicio de app web
+[06-Apr-2022 00:34:46 Europe/Berlin] APP::CONSTRUCT-> no hay controlador especificado
+[06-Apr-2022 00:34:46 Europe/Berlin] Login::construct -> inicio de Login
+[06-Apr-2022 00:34:46 Europe/Berlin] Login::render -> Carga index login
+[06-Apr-2022 00:34:46 Europe/Berlin] Aqui termina la pagina
+[06-Apr-2022 00:34:46 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[06-Apr-2022 22:52:36 Europe/Berlin] Inicio de app web
+[06-Apr-2022 22:52:37 Europe/Berlin] APP::CONSTRUCT-> no hay controlador especificado
+[06-Apr-2022 22:52:37 Europe/Berlin] Login::construct -> inicio de Login
+[06-Apr-2022 22:52:37 Europe/Berlin] Login::render -> Carga index login
+[06-Apr-2022 22:52:37 Europe/Berlin] Aqui termina la pagina
+[06-Apr-2022 22:52:37 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[07-Apr-2022 00:10:13 Europe/Berlin] Inicio de app web
+[07-Apr-2022 00:10:13 Europe/Berlin] Login::construct -> inicio de Login
+[07-Apr-2022 00:10:13 Europe/Berlin] Login::render -> Carga index login
+[07-Apr-2022 00:10:13 Europe/Berlin] Aqui termina la pagina
+[07-Apr-2022 00:10:13 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[07-Apr-2022 00:10:17 Europe/Berlin] Inicio de app web
+[07-Apr-2022 00:10:17 Europe/Berlin] Errores::construct -> Inicio de errores
+[07-Apr-2022 00:10:17 Europe/Berlin] Errores::render -> Carga index Errores
+[07-Apr-2022 00:10:17 Europe/Berlin] Aqui termina la pagina
+[07-Apr-2022 00:10:17 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[07-Apr-2022 04:42:58 Europe/Berlin] Inicio de app web
+[07-Apr-2022 04:42:58 Europe/Berlin] APP::CONSTRUCT-> no hay controlador especificado
+[07-Apr-2022 04:42:58 Europe/Berlin] Login::construct -> inicio de Login
+[07-Apr-2022 04:42:58 Europe/Berlin] Login::render -> Carga index login
+[07-Apr-2022 04:42:58 Europe/Berlin] Aqui termina la pagina
+[07-Apr-2022 04:42:58 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[07-Apr-2022 20:43:40 Europe/Berlin] Inicio de app web
+[07-Apr-2022 20:43:40 Europe/Berlin] APP::CONSTRUCT-> no hay controlador especificado
+[07-Apr-2022 20:43:40 Europe/Berlin] Login::construct -> inicio de Login
+[07-Apr-2022 20:43:40 Europe/Berlin] Login::render -> Carga index login
+[07-Apr-2022 20:43:40 Europe/Berlin] Aqui termina la pagina
+[07-Apr-2022 20:43:40 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[13-Apr-2022 00:32:46 Europe/Berlin] Inicio de app web
+[13-Apr-2022 00:32:46 Europe/Berlin] APP::CONSTRUCT-> no hay controlador especificado
+[13-Apr-2022 00:32:46 Europe/Berlin] Login::construct -> inicio de Login
+[13-Apr-2022 00:32:46 Europe/Berlin] Login::render -> Carga index login
+[13-Apr-2022 00:32:46 Europe/Berlin] Aqui termina la pagina
+[13-Apr-2022 00:32:46 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[13-Apr-2022 04:11:01 Europe/Berlin] Inicio de app web
+[13-Apr-2022 04:11:01 Europe/Berlin] APP::CONSTRUCT-> no hay controlador especificado
+[13-Apr-2022 04:11:01 Europe/Berlin] Login::construct -> inicio de Login
+[13-Apr-2022 04:11:02 Europe/Berlin] Login::render -> Carga index login
+[13-Apr-2022 04:11:02 Europe/Berlin] Aqui termina la pagina
+[13-Apr-2022 04:11:02 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[14-Apr-2022 16:34:25 Europe/Berlin] Inicio de app web
+[14-Apr-2022 16:34:26 Europe/Berlin] APP::CONSTRUCT-> no hay controlador especificado
+[14-Apr-2022 16:34:26 Europe/Berlin] Login::construct -> inicio de Login
+[14-Apr-2022 16:34:26 Europe/Berlin] Login::render -> Carga index login
+[14-Apr-2022 16:34:26 Europe/Berlin] Aqui termina la pagina
+[14-Apr-2022 16:34:26 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[15-Apr-2022 00:00:13 Europe/Berlin] Inicio de app web
+[15-Apr-2022 00:00:13 Europe/Berlin] APP::CONSTRUCT-> no hay controlador especificado
+[15-Apr-2022 00:00:13 Europe/Berlin] Login::construct -> inicio de Login
+[15-Apr-2022 00:00:13 Europe/Berlin] Login::render -> Carga index login
+[15-Apr-2022 00:00:13 Europe/Berlin] Aqui termina la pagina
+[15-Apr-2022 00:00:13 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[16-Apr-2022 04:30:15 Europe/Berlin] Inicio de app web
+[16-Apr-2022 04:30:15 Europe/Berlin] APP::CONSTRUCT-> no hay controlador especificado
+[16-Apr-2022 04:30:15 Europe/Berlin] Login::construct -> inicio de Login
+[16-Apr-2022 04:30:15 Europe/Berlin] Login::render -> Carga index login
+[16-Apr-2022 04:30:15 Europe/Berlin] Aqui termina la pagina
+[16-Apr-2022 04:30:15 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[16-Apr-2022 17:03:47 Europe/Berlin] Inicio de app web
+[16-Apr-2022 17:03:47 Europe/Berlin] APP::CONSTRUCT-> no hay controlador especificado
+[16-Apr-2022 17:03:47 Europe/Berlin] Login::construct -> inicio de Login
+[16-Apr-2022 17:03:47 Europe/Berlin] Login::render -> Carga index login
+[16-Apr-2022 17:03:47 Europe/Berlin] Aqui termina la pagina
+[16-Apr-2022 17:03:47 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
