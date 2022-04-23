@@ -1,0 +1,22 @@
+[23-Apr-2022 02:00:15 Europe/Berlin] Inicio de app web
+[23-Apr-2022 02:00:15 Europe/Berlin] APP::CONSTRUCT-> no hay controlador especificado
+[23-Apr-2022 02:00:15 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[23-Apr-2022 02:00:15 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> 
+[23-Apr-2022 02:00:15 Europe/Berlin] Login::construct -> inicio de Login
+[23-Apr-2022 02:00:15 Europe/Berlin] Login::render -> Carga index login
+[23-Apr-2022 02:00:15 Europe/Berlin] Aqui termina la pagina
+[23-Apr-2022 02:00:15 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[23-Apr-2022 02:00:19 Europe/Berlin] Inicio de app web
+[23-Apr-2022 02:00:19 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[23-Apr-2022 02:00:19 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> signup
+[23-Apr-2022 02:00:19 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "this" in C:\xampp\htdocs\expense\controllers\signup.php:11
+Stack trace:
+#0 C:\xampp\htdocs\expense\libs\app.php(62): Signup->render()
+#1 C:\xampp\htdocs\expense\index.php(24): App->__construct()
+#2 {main}
+  thrown in C:\xampp\htdocs\expense\controllers\signup.php on line 11
+[23-Apr-2022 02:00:37 Europe/Berlin] Inicio de app web
+[23-Apr-2022 02:00:37 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[23-Apr-2022 02:00:37 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage -> signup
+[23-Apr-2022 02:00:37 Europe/Berlin] Aqui termina la pagina
+[23-Apr-2022 02:00:37 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
