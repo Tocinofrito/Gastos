@@ -7,6 +7,25 @@
     <title>Registro</title>
 </head>
 <body>
-    <h1>Registro</h1>
+    <?php $this->showMessages(); ?>
+
+    <form action="">
+        <h2>Registrarse</h2>
+    <p>
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username">
+    </p>
+    <p>
+        <label for="password">Password</label>
+        <input type="text" id="password" name="password">
+    </p>
+    <p>
+        <input type="submit" value="Iniciar sesión">
+    </p>
+    <p>
+        ¿Tienes una cuenta? <a href="<?php echo constant('URL');?>">Iniciar sesión</a>
+    </p>
+
+    </form>
 </body>
 </html>
