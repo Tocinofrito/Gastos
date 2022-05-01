@@ -7,4 +7,19 @@ class LoginModel extends Model{
         
     }
 
+    function login($username, $password){
+        try {
+            //Accedemos  a dbname
+            $query = $this->prepare('SELECT FROM users WHERE username = : username');
+            $query->execute(['username' => $username]);
+            if($query-rowCount() == 1){
+                
+            }
+            
+        } catch (PDOException $e) {
+            error_log('LoginModel::login -> exception' . $e);
+            return NULL;
+        }
+    }
+
 }
