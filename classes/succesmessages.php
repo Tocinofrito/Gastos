@@ -10,7 +10,7 @@ class SuccessMessages{
     public function __construct() {
         $this->successList = [
             SuccessMessages::PRUEBAS => "ESTE ES UN MENSAJE DE EXITO",
-            SuccessMessages::SUCCES_SIGNUP_NEWUSER => "Nuevo usuario registrado correctamente",
+            SuccessMessages::SUCCES_SIGNUP_NEWUSER => "Nuevo usuario registrado correctamente"
         ];
     }
 

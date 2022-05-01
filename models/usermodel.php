@@ -48,14 +48,14 @@ class UserModel extends Model implements IModel{
             $query = $this->query('SELECT * FROM users');
             //FETCH_ASSOC devuelve un objeto de clave->valor
             while($user = $query->fetch(PDO::FETCH_ASSOC)){
-                $this = new UserModel();
-                $this->setId($user['id']);
-                $this->setName($user['name']);
-                $this->setRole($user['role']);
-                $this->setPassword($user['password']);
-                $this->setUsername($user['username']);
-                $this->setBudget($user['budget']);
-                $this->setPhoto($user['photo']);
+                $item = new UserModel();
+                $item->setId($user['id']);
+                $item->setName($user['name']);
+                $item->setRole($user['role']);
+                $item->setPassword($user['password']);
+                $item->setUsername($user['username']);
+                $item->setBudget($user['budget']);
+                $item->setPhoto($user['photo']);
                 
                 array_push($items, this);
 
@@ -194,6 +194,7 @@ class UserModel extends Model implements IModel{
     public function setPassword($password){
         $this->password = $this->getHashedPassword($password);
     }
+    public function setUsername($username){$this->username = $username;}
 
 
     public function getId(){        return $this->id;}

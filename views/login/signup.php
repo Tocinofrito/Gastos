@@ -9,7 +9,7 @@
 <body>
     <?php $this->showMessages(); ?>
 
-    <form action="">
+    <form action="<?php echo constant('URL');?>/signup/newUser" method="POST">
         <h2>Registrarse</h2>
     <p>
         <label for="username">Username</label>

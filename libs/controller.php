@@ -49,6 +49,7 @@ class Controller{
     }
     
     //Cuando se termina un proceso que se redirija a una pag
+    //Debe ser vacío  si quiere mandar a index,  si manda una $route y no  existe manda a 404
     function redirect($route, $mensajes){
 
         $data = [];
@@ -64,7 +65,7 @@ class Controller{
         if($params != ''){
             $params = '?' . $params;
         }
-        header('Location: ' . constant('URL') . $route . $params);
+        header('Location: ' . constant('URL') . "/" . $route . $params);
     }
 
 }
