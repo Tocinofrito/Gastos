@@ -26,11 +26,15 @@ class Login extends SessionController{
             }
             $user = $this->model->login($username, $password);
             if($user != NULL){
+                //Si existe el usuario y logea correctamente inicializamos con los datos la sesion y redirigimos a su pagina default
+
                 $this->initialize($user);
             }else{
+                //Si no redirigimos a pagina principal con el error 
                 $this->redirect('', ['error' => ErrorMessages::ERROR_LOGIN_AUTHENTICATE_DATA]);
             }
         }else{
+            //Si no logea bien error de autenticación
             $this->redirect('',['error' => ErrorMessages::ERROR_LOGIN_AUTHENTICATE]);
         }
 
