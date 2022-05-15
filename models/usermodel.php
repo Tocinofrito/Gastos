@@ -72,7 +72,7 @@ class UserModel extends Model implements IModel{
             
             $query = $this->prepare('SELECT * FROM users WHERE id = :id');
             $query->execute([
-                'id '=> $id
+                'id'=> $id
             ]);
 
             $user = $query->fetch(PDO::FETCH_ASSOC);

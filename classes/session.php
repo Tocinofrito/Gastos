@@ -17,7 +17,7 @@
         }
         //Regresa el usuario actual
         public function getCurrentUser(){
-            return $SESSION[$this->sessionName];
+            return $_SESSION[$this->sessionName];
         }
         //Cierra sesión y la elimina
         public function closeSession(){

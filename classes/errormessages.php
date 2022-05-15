@@ -8,6 +8,7 @@ class ErrorMessages{
     const ERROR_SIGNUP_NEWUSER_EXISTS = "223ac1ef34d53fa25g9f7d3c2gf26a61";
     const ERROR_LOGIN_AUTHENTICATE_EMPTY = "hgd23v12fc12v3ogho12ov123vm812fhc4129m8h";
     const ERROR_LOGIN_AUTHENTICATE_DATA ="278ac1ef34d5efb05f9f7d2c2ff26easdf2";
+    const ERROR_LOGIN_AUTHENTICATE ="11c37cfab311fbe28652f4947a9523c";
     private $errorList = [];
 
     public function __construct() {
