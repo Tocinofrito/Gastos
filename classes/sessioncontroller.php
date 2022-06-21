@@ -73,7 +73,7 @@ require_once 'classes/session.php';
 
         //Servirá para asignar o crear modelo del usuario y usar sus propiedades
         function getUserSessionData(){
-            $id = $this->userid;
+            $id = $this->session->getCurrentUser();
             $this->user = new UserModel();
             $this->user->get($id);
             error_log('SESSIONCONTROLLER::getUserSessionData -> ' . $this->user->getUsername());
@@ -95,17 +95,19 @@ require_once 'classes/session.php';
         function getCurrentPage(){
             $actualLink = trim("$_SERVER[REQUEST_URI]");
             $url = explode("/", $actualLink);
-            error_log("SESSIONCONTROLLER::getCurrentPage(): actual link-> " . $actualLink . $url[2]);
+            error_log("SESSIONCONTROLLER::getCurrentPage(): actual link-> " . $actualLink . ' ' .$url[2]);
             return $url[2];
         }
 
-        private function redirectDefaultSiteByRole($role){ 
-            $url = "";
+        private function redirectDefaultSiteByRole($role){
+            $url = '';
             for ($i=0; $i < sizeof($this->sites); $i++) {
                 if($this->sites[$i]['role'] == $role) {
-                    $url = '/expenses/' . $this->sites[$i]['site'];
+                    
+                    $url = '/expense/' . $this->sites[$i]['site'];
+                    break;
                 }
-                break;
+                
                 
             }
             header('location:' . $url);
