@@ -1,6 +1,6 @@
 <?php
 
-class CategoriesModel extends BaseModel implements IModel{
+class CategoriesModel extends Model implements IModel{
 
     private $id;
     private $name;
