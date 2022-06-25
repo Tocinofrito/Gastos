@@ -35,8 +35,9 @@ class CategoriesModel extends Model implements IModel{
                 $item = new CategoriesModel();
 
                 $item->from($p);
+                array_push($items, $item);
             }
-            array_push($items, $item);
+            
             return $items;
         }catch(PDOException $e){
             return NULL;

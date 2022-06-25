@@ -169,6 +169,7 @@ class UserModel extends Model implements IModel{
         }
     }
 
+    
     public function comparePassword($password, $id){ 
         try {
             $user = $this->get($id);

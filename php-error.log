@@ -1,70 +1,359 @@
-[24-Jun-2022 07:35:07 Europe/Berlin] Inicio de app web
-[24-Jun-2022 07:35:07 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "BaseModel" not found in C:\xampp\htdocs\expense\models\categoriesmodel.php:3
+[25-Jun-2022 07:23:43 Europe/Berlin] Inicio de app web
+[25-Jun-2022 07:23:43 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[25-Jun-2022 07:23:43 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/login/authenticate login
+[25-Jun-2022 07:23:43 Europe/Berlin] Login::construct -> inicio de Login
+[25-Jun-2022 07:23:43 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 07:23:43 Europe/Berlin] LoginModel::login->success
+[25-Jun-2022 07:23:43 Europe/Berlin] Aqui termina la pagina
+[25-Jun-2022 07:23:43 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[25-Jun-2022 07:23:43 Europe/Berlin] Inicio de app web
+[25-Jun-2022 07:23:43 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[25-Jun-2022 07:23:43 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 07:23:43 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 07:23:43 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/dashboard dashboard
+[25-Jun-2022 07:23:43 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/dashboard dashboard
+[25-Jun-2022 07:23:43 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 07:23:44 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 07:23:44 Europe/Berlin] Dasboard::construct -> inicio de Login
+[25-Jun-2022 07:23:44 Europe/Berlin] Dasboard::render -> Carga index Dashboard
+[25-Jun-2022 07:23:44 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 07:23:44 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 07:23:44 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 07:23:44 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 07:23:44 Europe/Berlin] Aqui termina la pagina
+[25-Jun-2022 07:23:44 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[25-Jun-2022 07:23:53 Europe/Berlin] Inicio de app web
+[25-Jun-2022 07:23:53 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[25-Jun-2022 07:23:53 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 07:23:53 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 07:23:53 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user user
+[25-Jun-2022 07:23:53 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user user
+[25-Jun-2022 07:23:53 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 07:23:53 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 07:23:53 Europe/Berlin] PHP Warning:  Undefined variable $user in C:\xampp\htdocs\expense\views\user\index.php on line 10
+[25-Jun-2022 07:23:53 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getPhoto() on null in C:\xampp\htdocs\expense\views\user\index.php:10
 Stack trace:
-#0 C:\xampp\htdocs\expense\index.php(23): require_once()
-#1 {main}
-  thrown in C:\xampp\htdocs\expense\models\categoriesmodel.php on line 3
-[24-Jun-2022 07:35:36 Europe/Berlin] Inicio de app web
-[24-Jun-2022 07:35:36 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "BaseModel" not found in C:\xampp\htdocs\expense\models\categoriesmodel.php:3
+#0 C:\xampp\htdocs\expense\libs\view.php(13): require()
+#1 C:\xampp\htdocs\expense\controllers\user.php(15): View->render('user/index', Array)
+#2 C:\xampp\htdocs\expense\libs\app.php(62): User->render()
+#3 C:\xampp\htdocs\expense\index.php(26): App->__construct()
+#4 {main}
+  thrown in C:\xampp\htdocs\expense\views\user\index.php on line 10
+[25-Jun-2022 07:25:50 Europe/Berlin] Inicio de app web
+[25-Jun-2022 07:25:50 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[25-Jun-2022 07:25:50 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 07:25:50 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 07:25:50 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user user
+[25-Jun-2022 07:25:50 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user user
+[25-Jun-2022 07:25:50 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 07:25:50 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 07:25:50 Europe/Berlin] Aqui termina la pagina
+[25-Jun-2022 07:25:50 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[25-Jun-2022 07:25:50 Europe/Berlin] Inicio de app web
+[25-Jun-2022 07:25:50 Europe/Berlin] Errores::construct -> Inicio de errores
+[25-Jun-2022 07:25:50 Europe/Berlin] Errores::render -> Carga index Errores
+[25-Jun-2022 07:25:50 Europe/Berlin] El archivo(controlador)no existe
+[25-Jun-2022 07:25:50 Europe/Berlin] Aqui termina la pagina
+[25-Jun-2022 07:25:50 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[25-Jun-2022 07:28:39 Europe/Berlin] Inicio de app web
+[25-Jun-2022 07:28:39 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[25-Jun-2022 07:28:39 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 07:28:39 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 07:28:39 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user user
+[25-Jun-2022 07:28:39 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user user
+[25-Jun-2022 07:28:39 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 07:28:39 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 07:28:39 Europe/Berlin] Aqui termina la pagina
+[25-Jun-2022 07:28:39 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[25-Jun-2022 07:28:40 Europe/Berlin] Inicio de app web
+[25-Jun-2022 07:28:40 Europe/Berlin] Errores::construct -> Inicio de errores
+[25-Jun-2022 07:28:40 Europe/Berlin] Errores::render -> Carga index Errores
+[25-Jun-2022 07:28:40 Europe/Berlin] El archivo(controlador)no existe
+[25-Jun-2022 07:28:40 Europe/Berlin] Aqui termina la pagina
+[25-Jun-2022 07:28:40 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[25-Jun-2022 07:29:28 Europe/Berlin] Inicio de app web
+[25-Jun-2022 07:29:28 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[25-Jun-2022 07:29:28 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 07:29:28 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 07:29:28 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user user
+[25-Jun-2022 07:29:28 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user user
+[25-Jun-2022 07:29:28 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 07:29:28 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 07:29:28 Europe/Berlin] Aqui termina la pagina
+[25-Jun-2022 07:29:28 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[25-Jun-2022 07:29:28 Europe/Berlin] Inicio de app web
+[25-Jun-2022 07:29:28 Europe/Berlin] Errores::construct -> Inicio de errores
+[25-Jun-2022 07:29:28 Europe/Berlin] Errores::render -> Carga index Errores
+[25-Jun-2022 07:29:28 Europe/Berlin] El archivo(controlador)no existe
+[25-Jun-2022 07:29:28 Europe/Berlin] Aqui termina la pagina
+[25-Jun-2022 07:29:28 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[25-Jun-2022 08:01:34 Europe/Berlin] Inicio de app web
+[25-Jun-2022 08:01:34 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[25-Jun-2022 08:01:34 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:01:34 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:01:34 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user user
+[25-Jun-2022 08:01:34 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user user
+[25-Jun-2022 08:01:34 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:01:34 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:01:34 Europe/Berlin] Aqui termina la pagina
+[25-Jun-2022 08:01:34 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[25-Jun-2022 08:01:35 Europe/Berlin] Inicio de app web
+[25-Jun-2022 08:01:35 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[25-Jun-2022 08:01:35 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:01:35 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:01:35 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user user
+[25-Jun-2022 08:01:35 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user user
+[25-Jun-2022 08:01:35 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:01:35 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:01:35 Europe/Berlin] Aqui termina la pagina
+[25-Jun-2022 08:01:35 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[25-Jun-2022 08:01:36 Europe/Berlin] Inicio de app web
+[25-Jun-2022 08:01:36 Europe/Berlin] Errores::construct -> Inicio de errores
+[25-Jun-2022 08:01:36 Europe/Berlin] Errores::render -> Carga index Errores
+[25-Jun-2022 08:01:36 Europe/Berlin] El archivo(controlador)no existe
+[25-Jun-2022 08:01:36 Europe/Berlin] Aqui termina la pagina
+[25-Jun-2022 08:01:36 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[25-Jun-2022 08:01:40 Europe/Berlin] Inicio de app web
+[25-Jun-2022 08:01:40 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[25-Jun-2022 08:01:40 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:01:40 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:01:40 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user/updatePhoto user
+[25-Jun-2022 08:01:40 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user/updatePhoto user
+[25-Jun-2022 08:01:40 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:01:40 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:01:40 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method UserModel::updatePhoto() in C:\xampp\htdocs\expense\controllers\user.php:113
 Stack trace:
-#0 C:\xampp\htdocs\expense\controllers\dashboard.php(3): require_once()
-#1 C:\xampp\htdocs\expense\libs\app.php(35): require_once('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\expense\index.php(26): App->__construct()
-#3 {main}
-  thrown in C:\xampp\htdocs\expense\models\categoriesmodel.php on line 3
-[24-Jun-2022 07:35:49 Europe/Berlin] Inicio de app web
-[24-Jun-2022 07:35:49 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "BaseModel" not found in C:\xampp\htdocs\expense\models\categoriesmodel.php:3
-Stack trace:
-#0 C:\xampp\htdocs\expense\controllers\dashboard.php(3): require_once()
-#1 C:\xampp\htdocs\expense\libs\app.php(35): require_once('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\expense\index.php(25): App->__construct()
-#3 {main}
-  thrown in C:\xampp\htdocs\expense\models\categoriesmodel.php on line 3
-[24-Jun-2022 07:35:57 Europe/Berlin] Inicio de app web
-[24-Jun-2022 07:35:57 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "BaseModel" not found in C:\xampp\htdocs\expense\models\categoriesmodel.php:3
-Stack trace:
-#0 C:\xampp\htdocs\expense\controllers\dashboard.php(3): require_once()
-#1 C:\xampp\htdocs\expense\libs\app.php(35): require_once('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\expense\index.php(26): App->__construct()
-#3 {main}
-  thrown in C:\xampp\htdocs\expense\models\categoriesmodel.php on line 3
-[24-Jun-2022 07:37:08 Europe/Berlin] Inicio de app web
-[24-Jun-2022 07:37:08 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "BaseModel" not found in C:\xampp\htdocs\expense\models\categoriesmodel.php:3
-Stack trace:
-#0 C:\xampp\htdocs\expense\controllers\dashboard.php(3): require_once()
-#1 C:\xampp\htdocs\expense\libs\app.php(35): require_once('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\expense\index.php(26): App->__construct()
-#3 {main}
-  thrown in C:\xampp\htdocs\expense\models\categoriesmodel.php on line 3
-[24-Jun-2022 07:37:17 Europe/Berlin] Inicio de app web
-[24-Jun-2022 07:37:17 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "BaseModel" not found in C:\xampp\htdocs\expense\models\categoriesmodel.php:3
-Stack trace:
-#0 C:\xampp\htdocs\expense\controllers\dashboard.php(3): require_once()
-#1 C:\xampp\htdocs\expense\libs\app.php(35): require_once('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\expense\index.php(26): App->__construct()
-#3 {main}
-  thrown in C:\xampp\htdocs\expense\models\categoriesmodel.php on line 3
-[24-Jun-2022 07:37:29 Europe/Berlin] Inicio de app web
-[24-Jun-2022 07:37:29 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[24-Jun-2022 07:37:29 Europe/Berlin] Conexión a BD exitosa
-[24-Jun-2022 07:37:29 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
-[24-Jun-2022 07:37:29 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/dashboard dashboard
-[24-Jun-2022 07:37:29 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/dashboard dashboard
-[24-Jun-2022 07:37:29 Europe/Berlin] Conexión a BD exitosa
-[24-Jun-2022 07:37:29 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
-[24-Jun-2022 07:37:29 Europe/Berlin] Dasboard::construct -> inicio de Login
-[24-Jun-2022 07:37:29 Europe/Berlin] Dasboard::render -> Carga index Dashboard
-[24-Jun-2022 07:37:29 Europe/Berlin] Conexión a BD exitosa
-[24-Jun-2022 07:37:29 Europe/Berlin] Conexión a BD exitosa
-[24-Jun-2022 07:37:29 Europe/Berlin] Conexión a BD exitosa
-[24-Jun-2022 07:37:29 Europe/Berlin] Conexión a BD exitosa
-[24-Jun-2022 07:37:29 Europe/Berlin] PHP Warning:  Undefined variable $item in C:\xampp\htdocs\expense\models\categoriesmodel.php on line 39
-[24-Jun-2022 07:37:29 Europe/Berlin] PHP Warning:  Attempt to read property "getId" on null in C:\xampp\htdocs\expense\controllers\dashboard.php on line 50
-[24-Jun-2022 07:37:29 Europe/Berlin] Conexión a BD exitosa
-[24-Jun-2022 07:37:29 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to a member function getId() on null in C:\xampp\htdocs\expense\controllers\dashboard.php:51
-Stack trace:
-#0 C:\xampp\htdocs\expense\controllers\dashboard.php(21): Dashboard->getCategories()
-#1 C:\xampp\htdocs\expense\libs\app.php(62): Dashboard->render()
-#2 C:\xampp\htdocs\expense\index.php(26): App->__construct()
-#3 {main}
-  thrown in C:\xampp\htdocs\expense\controllers\dashboard.php on line 51
+#0 C:\xampp\htdocs\expense\libs\app.php(53): User->updatePhoto()
+#1 C:\xampp\htdocs\expense\index.php(26): App->__construct()
+#2 {main}
+  thrown in C:\xampp\htdocs\expense\controllers\user.php on line 113
+[25-Jun-2022 08:10:20 Europe/Berlin] Inicio de app web
+[25-Jun-2022 08:10:20 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[25-Jun-2022 08:10:20 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:10:21 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:10:21 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user/updatePhoto user
+[25-Jun-2022 08:10:21 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user/updatePhoto user
+[25-Jun-2022 08:10:21 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:10:21 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:10:21 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:10:21 Europe/Berlin] Aqui termina la pagina
+[25-Jun-2022 08:10:21 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[25-Jun-2022 08:10:21 Europe/Berlin] Inicio de app web
+[25-Jun-2022 08:10:21 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[25-Jun-2022 08:10:21 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:10:21 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:10:21 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user user
+[25-Jun-2022 08:10:21 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user user
+[25-Jun-2022 08:10:21 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:10:21 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:10:21 Europe/Berlin] Aqui termina la pagina
+[25-Jun-2022 08:10:21 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[25-Jun-2022 08:10:22 Europe/Berlin] Inicio de app web
+[25-Jun-2022 08:10:22 Europe/Berlin] Errores::construct -> Inicio de errores
+[25-Jun-2022 08:10:22 Europe/Berlin] Errores::render -> Carga index Errores
+[25-Jun-2022 08:10:22 Europe/Berlin] El archivo(controlador)no existe
+[25-Jun-2022 08:10:22 Europe/Berlin] Aqui termina la pagina
+[25-Jun-2022 08:10:22 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[25-Jun-2022 08:10:40 Europe/Berlin] Inicio de app web
+[25-Jun-2022 08:10:40 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[25-Jun-2022 08:10:40 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:10:40 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:10:40 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user/updatePhoto user
+[25-Jun-2022 08:10:40 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user/updatePhoto user
+[25-Jun-2022 08:10:40 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:10:40 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:10:40 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:10:40 Europe/Berlin] Aqui termina la pagina
+[25-Jun-2022 08:10:40 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[25-Jun-2022 08:10:41 Europe/Berlin] Inicio de app web
+[25-Jun-2022 08:10:41 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[25-Jun-2022 08:10:41 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:10:41 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:10:41 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user user
+[25-Jun-2022 08:10:41 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user user
+[25-Jun-2022 08:10:41 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:10:41 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:10:41 Europe/Berlin] Aqui termina la pagina
+[25-Jun-2022 08:10:41 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[25-Jun-2022 08:10:41 Europe/Berlin] Inicio de app web
+[25-Jun-2022 08:10:41 Europe/Berlin] Errores::construct -> Inicio de errores
+[25-Jun-2022 08:10:41 Europe/Berlin] Errores::render -> Carga index Errores
+[25-Jun-2022 08:10:41 Europe/Berlin] El archivo(controlador)no existe
+[25-Jun-2022 08:10:41 Europe/Berlin] Aqui termina la pagina
+[25-Jun-2022 08:10:41 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[25-Jun-2022 08:13:54 Europe/Berlin] Inicio de app web
+[25-Jun-2022 08:13:54 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[25-Jun-2022 08:13:54 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:13:54 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:13:54 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user user
+[25-Jun-2022 08:13:54 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user user
+[25-Jun-2022 08:13:54 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:13:54 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:13:54 Europe/Berlin] Aqui termina la pagina
+[25-Jun-2022 08:13:54 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[25-Jun-2022 08:13:55 Europe/Berlin] Inicio de app web
+[25-Jun-2022 08:13:55 Europe/Berlin] Errores::construct -> Inicio de errores
+[25-Jun-2022 08:13:55 Europe/Berlin] Errores::render -> Carga index Errores
+[25-Jun-2022 08:13:55 Europe/Berlin] El archivo(controlador)no existe
+[25-Jun-2022 08:13:55 Europe/Berlin] Aqui termina la pagina
+[25-Jun-2022 08:13:55 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[25-Jun-2022 08:13:59 Europe/Berlin] Inicio de app web
+[25-Jun-2022 08:13:59 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[25-Jun-2022 08:13:59 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:13:59 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:13:59 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user/updatePhoto user
+[25-Jun-2022 08:13:59 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user/updatePhoto user
+[25-Jun-2022 08:13:59 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:13:59 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:13:59 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:13:59 Europe/Berlin] Aqui termina la pagina
+[25-Jun-2022 08:13:59 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[25-Jun-2022 08:14:00 Europe/Berlin] Inicio de app web
+[25-Jun-2022 08:14:00 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[25-Jun-2022 08:14:00 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:14:00 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:14:00 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user user
+[25-Jun-2022 08:14:00 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user user
+[25-Jun-2022 08:14:00 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:14:00 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:14:00 Europe/Berlin] Aqui termina la pagina
+[25-Jun-2022 08:14:00 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[25-Jun-2022 08:14:00 Europe/Berlin] Inicio de app web
+[25-Jun-2022 08:14:00 Europe/Berlin] Errores::construct -> Inicio de errores
+[25-Jun-2022 08:14:00 Europe/Berlin] Errores::render -> Carga index Errores
+[25-Jun-2022 08:14:00 Europe/Berlin] El archivo(controlador)no existe
+[25-Jun-2022 08:14:00 Europe/Berlin] Aqui termina la pagina
+[25-Jun-2022 08:14:00 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[25-Jun-2022 08:15:29 Europe/Berlin] Inicio de app web
+[25-Jun-2022 08:15:29 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[25-Jun-2022 08:15:29 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:15:29 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:15:29 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user user
+[25-Jun-2022 08:15:29 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user user
+[25-Jun-2022 08:15:29 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:15:29 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:15:29 Europe/Berlin] Aqui termina la pagina
+[25-Jun-2022 08:15:29 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[25-Jun-2022 08:15:29 Europe/Berlin] Inicio de app web
+[25-Jun-2022 08:15:29 Europe/Berlin] Errores::construct -> Inicio de errores
+[25-Jun-2022 08:15:29 Europe/Berlin] Errores::render -> Carga index Errores
+[25-Jun-2022 08:15:29 Europe/Berlin] El archivo(controlador)no existe
+[25-Jun-2022 08:15:29 Europe/Berlin] Aqui termina la pagina
+[25-Jun-2022 08:15:29 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[25-Jun-2022 08:15:34 Europe/Berlin] Inicio de app web
+[25-Jun-2022 08:15:34 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[25-Jun-2022 08:15:34 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:15:34 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:15:34 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user/updatePhoto user
+[25-Jun-2022 08:15:34 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user/updatePhoto user
+[25-Jun-2022 08:15:34 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:15:34 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:15:34 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:15:34 Europe/Berlin] Aqui termina la pagina
+[25-Jun-2022 08:15:34 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[25-Jun-2022 08:15:34 Europe/Berlin] Inicio de app web
+[25-Jun-2022 08:15:34 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[25-Jun-2022 08:15:34 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:15:34 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:15:34 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user user
+[25-Jun-2022 08:15:34 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user user
+[25-Jun-2022 08:15:34 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:15:34 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:15:34 Europe/Berlin] Aqui termina la pagina
+[25-Jun-2022 08:15:34 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[25-Jun-2022 08:17:46 Europe/Berlin] Inicio de app web
+[25-Jun-2022 08:17:46 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[25-Jun-2022 08:17:46 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:17:46 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:17:46 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user user
+[25-Jun-2022 08:17:46 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user user
+[25-Jun-2022 08:17:46 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:17:46 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:17:46 Europe/Berlin] Aqui termina la pagina
+[25-Jun-2022 08:17:46 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[25-Jun-2022 08:17:52 Europe/Berlin] Inicio de app web
+[25-Jun-2022 08:17:52 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[25-Jun-2022 08:17:52 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:17:52 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:17:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user/updatePhoto user
+[25-Jun-2022 08:17:52 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user/updatePhoto user
+[25-Jun-2022 08:17:52 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:17:53 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:17:53 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:17:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\expense\models\usermodel.php on line 126
+[25-Jun-2022 08:17:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\expense\models\usermodel.php on line 127
+[25-Jun-2022 08:17:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\expense\models\usermodel.php on line 128
+[25-Jun-2022 08:17:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\expense\models\usermodel.php on line 129
+[25-Jun-2022 08:17:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\expense\models\usermodel.php on line 130
+[25-Jun-2022 08:17:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\expense\models\usermodel.php on line 131
+[25-Jun-2022 08:17:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\expense\models\usermodel.php on line 132
+[25-Jun-2022 08:17:53 Europe/Berlin] Aqui termina la pagina
+[25-Jun-2022 08:17:53 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[25-Jun-2022 08:17:53 Europe/Berlin] Inicio de app web
+[25-Jun-2022 08:17:53 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[25-Jun-2022 08:17:53 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:17:53 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:17:53 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user user
+[25-Jun-2022 08:17:53 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user user
+[25-Jun-2022 08:17:53 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:17:53 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:17:53 Europe/Berlin] Aqui termina la pagina
+[25-Jun-2022 08:17:53 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[25-Jun-2022 08:18:02 Europe/Berlin] Inicio de app web
+[25-Jun-2022 08:18:02 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[25-Jun-2022 08:18:02 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:18:02 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:18:02 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user/updateName user
+[25-Jun-2022 08:18:02 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user/updateName user
+[25-Jun-2022 08:18:02 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:18:02 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:18:02 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, string given in C:\xampp\htdocs\expense\libs\controller.php on line 23
+[25-Jun-2022 08:18:02 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:18:02 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\expense\models\usermodel.php on line 126
+[25-Jun-2022 08:18:02 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\expense\models\usermodel.php on line 127
+[25-Jun-2022 08:18:02 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\expense\models\usermodel.php on line 128
+[25-Jun-2022 08:18:02 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\expense\models\usermodel.php on line 129
+[25-Jun-2022 08:18:02 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\expense\models\usermodel.php on line 130
+[25-Jun-2022 08:18:02 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\expense\models\usermodel.php on line 131
+[25-Jun-2022 08:18:02 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\expense\models\usermodel.php on line 132
+[25-Jun-2022 08:18:02 Europe/Berlin] Aqui termina la pagina
+[25-Jun-2022 08:18:02 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[25-Jun-2022 08:18:03 Europe/Berlin] Inicio de app web
+[25-Jun-2022 08:18:03 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[25-Jun-2022 08:18:03 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:18:03 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:18:03 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user user
+[25-Jun-2022 08:18:03 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user user
+[25-Jun-2022 08:18:03 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:18:03 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:18:03 Europe/Berlin] Aqui termina la pagina
+[25-Jun-2022 08:18:03 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[25-Jun-2022 08:18:05 Europe/Berlin] Inicio de app web
+[25-Jun-2022 08:18:05 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[25-Jun-2022 08:18:05 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:18:05 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:18:05 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user/updateName user
+[25-Jun-2022 08:18:05 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user/updateName user
+[25-Jun-2022 08:18:05 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:18:05 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:18:05 Europe/Berlin] PHP Warning:  foreach() argument must be of type array|object, string given in C:\xampp\htdocs\expense\libs\controller.php on line 23
+[25-Jun-2022 08:18:05 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:18:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\expense\models\usermodel.php on line 126
+[25-Jun-2022 08:18:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\expense\models\usermodel.php on line 127
+[25-Jun-2022 08:18:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\expense\models\usermodel.php on line 128
+[25-Jun-2022 08:18:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\expense\models\usermodel.php on line 129
+[25-Jun-2022 08:18:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\expense\models\usermodel.php on line 130
+[25-Jun-2022 08:18:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\expense\models\usermodel.php on line 131
+[25-Jun-2022 08:18:05 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\expense\models\usermodel.php on line 132
+[25-Jun-2022 08:18:05 Europe/Berlin] Aqui termina la pagina
+[25-Jun-2022 08:18:05 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[25-Jun-2022 08:18:06 Europe/Berlin] Inicio de app web
+[25-Jun-2022 08:18:06 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[25-Jun-2022 08:18:06 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:18:06 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:18:06 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user user
+[25-Jun-2022 08:18:06 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/user user
+[25-Jun-2022 08:18:06 Europe/Berlin] Conexión a BD exitosa
+[25-Jun-2022 08:18:06 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> marcos
+[25-Jun-2022 08:18:06 Europe/Berlin] Aqui termina la pagina
+[25-Jun-2022 08:18:06 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------

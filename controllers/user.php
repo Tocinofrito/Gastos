@@ -90,7 +90,7 @@ class User extends SessionController{
         }
         $photo = $_FILES['photo'];
 
-        $targetDir = 'public/img/photos';
+        $targetDir = 'public/img/photos/';
         $extension = explode('.', $photo['name']);
         $filename = $extension[sizeof($extension) - 2];
         $ext = $extension[sizeof($extension) - 1];
@@ -110,7 +110,8 @@ class User extends SessionController{
             return;
         }else{
             if(move_uploaded_file($photo['tmp_name'], $targetFile)){
-                $this->model->updatePhoto($hash, $this->user->getId());
+                $this->user->setPhoto($hash);
+                $this->user->update();
                 $this->redirect('user', []); //TODO:success
             }else{
                 $this->redirect('user', []);//TODO:error
