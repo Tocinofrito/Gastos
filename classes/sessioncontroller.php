@@ -76,7 +76,7 @@ require_once 'classes/session.php';
             $id = $this->session->getCurrentUser();
             $this->user = new UserModel();
             $this->user->get($id);
-            error_log('SESSIONCONTROLLER::getUserSessionData -> ' . $this->user->getUsername());
+            error_log('SESSIONCONTROLLER::getUserSessionData -> ' . $this->user->getUserName() );
             return $this->user;
         }
 
@@ -104,7 +104,7 @@ require_once 'classes/session.php';
             for ($i=0; $i < sizeof($this->sites); $i++) {
                 if($this->sites[$i]['role'] == $role) {
                     
-                    $url = '/expense/' . $this->sites[$i]['site'];
+                    $url = 'expense/' . $this->sites[$i]['site'];
                     break;
                 }
                 

@@ -1,6 +1,6 @@
 <?php
 
-class expensesModel extends Model implements IModel{
+class ExpensesModel extends Model implements IModel{
 
     private $id;
     private $title;
@@ -165,15 +165,16 @@ class expensesModel extends Model implements IModel{
             $month = date('m');
             $query = $this->prepare('SELECT SUM(amount) AS total FROM expenses WHERE YEAR(date) = :year AND MONTH(date) = :month AND id_user = :userid ');
             $query->execute([
-                'userid' => $userid,
                 'year' => $year,
-                'month' => $month              
+                'month' => $month,    
+                'userid' => $userid           
             ]);
           $total = $query->fetch(PDO::FETCH_ASSOC)['total'];
           //Regresa una sola celda
-          if($total == NULL) $total =0;
+          if($total == NULL){
+          $total =0;
           return $total;
-            
+          }
         } catch (PDOException $e) {
             return NULL;
             //throw $th;

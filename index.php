@@ -10,7 +10,6 @@ ini_set('log_errors', TRUE); // Error/Exception file logging engine.
 
 ini_set("error_log", "php-error.log" );
 error_log( "Inicio de app web" );
-
 require_once 'libs/database.php';
 require_once 'classes/errormessages.php';
 require_once 'classes/succesmessages.php';

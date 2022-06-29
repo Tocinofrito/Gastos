@@ -58,7 +58,7 @@ class UserModel extends Model implements IModel{
                 $item->setBudget($user['budget']);
                 $item->setPhoto($user['photo']);
                 
-                array_push($items, this);
+                array_push($items, $this);
 
             }
             return $items;
@@ -85,7 +85,7 @@ class UserModel extends Model implements IModel{
                 $this->setUsername($user['username']);
                 $this->setBudget($user['budget']);
                 $this->setPhoto($user['photo']);
-            
+                error_log($user['name'] . 'Nombre aquii');
             return $this;
         } catch (PDOException $e) {
             error_log('USERMODEL::getId->PDOException ' . $e);

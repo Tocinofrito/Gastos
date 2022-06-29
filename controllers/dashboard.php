@@ -1,6 +1,7 @@
 <?php
 require_once 'models/expensesmodel.php';
 require_once 'models/categoriesmodel.php';
+require_once 'classes/sessioncontroller.php';
 
 class Dashboard extends SessionController{
 
@@ -8,18 +9,17 @@ class Dashboard extends SessionController{
     function __construct(){
         parent::__construct();
         $this->user = $this->getUserSessionData();
-        error_log('Dasboard::construct -> inicio de Login');
+        error_log('Dasboard::construct -> inicio de Login' );
     }
     //Funcion que llama a la vista dependiendo el controlador
     function render(){
-        error_log('Dasboard::render -> Carga index Dashboard');
+        error_log('Dasboard::render -> Carga index Dashboard' );
         
-        $expensesModel = new expensesModel();
+        $expensesModel = new ExpensesModel();
         $expenses = $this->getExpenses(5);
         $totalThismonth = $expensesModel->getTotalAmountThisMonth($this->user->getId());
         $maxExpensesThisMonth = $expensesModel->getMaxExpensesThisMonth($this->user->getId());
         $categories = $this->getCategories();
-
         $this->view->render('dashboard/index',[
             'user' => $this->user,
             'expenses' => $expenses,
@@ -27,6 +27,7 @@ class Dashboard extends SessionController{
             'maxExpensesThisMonth' => $maxExpensesThisMonth,
             'categories' => $categories
         ]);
+        error_log($this->user->getName());
     }
     
     public function getExpenses($n = 0){

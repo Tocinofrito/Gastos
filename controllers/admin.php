@@ -1,4 +1,6 @@
 <?php
+require_once 'models/expensesmodel.php';
+require_once 'models/categoriesmodel.php';
 
 class Admin extends SessionController{
     function __construct(){
@@ -62,7 +64,7 @@ class Admin extends SessionController{
             $sum += $expense->getAmount();
 
         }
-        return ($suma / count($expenses));
+        return ($sum / count($expenses));
     }
 
     private function getCategoryMostUsed($expenses){

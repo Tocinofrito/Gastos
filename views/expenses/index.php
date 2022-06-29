@@ -1,24 +1,48 @@
+<?php
+    $user = $this->d['user'];
+    $dates = $this->d['dates'];
+    $categories = $this->d['categories'];
+?>
+
 <link rel="stylesheet" href="<?php echo constant('URL') ?>public/css/history.css">
     <?php require_once 'views/dashboard/header.php'; ?>
 
     <div id="main-container">
-    
+    <?php $this->showMessages();?>
         <div id="history-container" class="container">
-            
+            <?php
+                if(isset($_GET['message'])){
+                    if($_GET['message'] === 'success'){
+                        showSuccess('Gasto eliminado con éxito');
+                    }else{
+                        showError('Hubo un error en la operación. Inténtalo más tarde');
+                    }
+                }
+             ?>
             <div id="history-options">
                 <h2>Historial de gastos</h2>
                 <div id="filters-container">
                     <div class="filter-container">
                         <select id="sdate" class="custom-select">
                             <option value="">Ver todas las fechas</option>
-                            
+                            <?php
+                                $options = $dates;
+                                foreach($options as $option){
+                                    echo "<option value=$option >".$option."</option>";
+                                }
+                            ?>
                         </select>
                     </div>
 
                     <div class="filter-container">
                         <select id="scategory" class="custom-select">
                             <option value="">Ver todas las categorias</option>
-                            
+                            <?php
+                                $options = $categories;
+                                foreach($options as $option){
+                                    echo "<option value=$option >".$option."</option>";
+                                }
+                            ?>
                         </select>
                     </div>
                 </div>   
@@ -168,7 +192,7 @@
         }
 
         async function getData(){
-            data = await fetch('http://localhost:8080/expense-app/expenses/getHistoryJSON')
+            data = await fetch('http://localhost:8080/expense/expenses/getHistoryJSON')
             .then(res =>res.json())
             .then(json => json);
             this.copydata = [...this.data];
@@ -192,7 +216,7 @@
                         <td><span class="category" style="background-color: ${item.color}">${item.name}</span></td>
                         <td>${item.date}</td>
                         <td>$${item.amount}</td>
-                        <td><a href="http://localhost:8080/expense-app/expenses/delete/${item.id}">Eliminar</a></td>
+                        <td><a href="http://localhost:8080/expense/expenses/delete/${item.id}">Eliminar</a></td>
                     </tr>`;
             });
         }
