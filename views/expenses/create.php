@@ -1,3 +1,8 @@
+<?php
+    $categories = $this->d['categories'];
+?>
+
+
 <link rel="stylesheet" href="<?php echo constant('URL'); ?>public/css/expense.css">
 
 
@@ -20,6 +25,13 @@
     <div class="section">
         <label for="categoria">Categoria</label>
             <select name="category" id="" required>
+            <?php 
+                foreach ($categories as $cat) {
+            ?>
+                <option value="<?php echo $cat->getId() ?>"><?php echo $cat->getName() ?></option>
+                    <?php
+                }
+            ?>
             </select>
     </div>    
 

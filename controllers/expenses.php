@@ -134,7 +134,7 @@
         }
 
         function getExpensesJSON(){
-            //header('Content-Type: application/json');
+            header('Content-Type: application/json');
 
             $res = [];
             $categoryIds = $this->getCategoriesId();

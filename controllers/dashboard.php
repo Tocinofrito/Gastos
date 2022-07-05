@@ -48,7 +48,7 @@ class Dashboard extends SessionController{
         foreach($categories as $category){
             $categoryArray = [];
             
-            $total = $expensesModel->getTotalByCategoryThisMonth($category->getId, $this->user->getId());
+            $total = $expensesModel->getTotalByCategoryThisMonth($category->getId(), $this->user->getId());
             $numberOfExpenses = $expensesModel->getNumberOfExpensesByCategoryThisMonth($category->getId(), $this->user->getId());
             if($numberOfExpenses > 0){
                 $categoryArray['total'] = $total;

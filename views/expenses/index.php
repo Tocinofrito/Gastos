@@ -1,7 +1,7 @@
 <?php
     $user = $this->d['user'];
-    $dates = $this->d['dates'];
-    $categories = $this->d['categories'];
+    $dates = $this->d['date'];
+    $categories = $this->d['category'];
 ?>
 
 <link rel="stylesheet" href="<?php echo constant('URL') ?>public/css/history.css">
