@@ -37,7 +37,13 @@ btnExpense.addEventListener('click', async e =>{
 });
 
 async function getContent(){
-  const html = await fetch('http://localhost:8080/expense/expenses/create').then(res => res.text());
+  const html = await fetch('http://localhost/expense/expenses/create',{
+    mode: 'no-cors',
+    headers: {
+      'Access-Control-Allow-Origin':'*'
+    }
+  })
+  .then(res => res.text());
   return html;
 }
 
@@ -45,10 +51,15 @@ google.charts.load('current', {'packages':['bar']});
       google.charts.setOnLoadCallback(drawChart);
 
       async function drawChart() {
-        const http = await fetch('http://localhost:8080/expense/expenses/getExpensesJSON')
+        const http = await fetch('http://localhost/expense/expenses/getExpensesJSON',{
+          mode: 'no-cors',
+          headers: {
+            'Access-Control-Allow-Origin':'*'
+          }
+        })
         .then(json => json.json())
         .then(res => res);
-
+          
         let expenses = [...http];
         expenses.shift();
         console.log(expenses);

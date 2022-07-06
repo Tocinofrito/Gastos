@@ -1,116 +1,72 @@
-[05-Jul-2022 04:07:30 Europe/Berlin] Inicio de app web
-[05-Jul-2022 04:07:30 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[05-Jul-2022 04:07:30 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:07:30 Europe/Berlin] Nombre aquii
-[05-Jul-2022 04:07:30 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
-[05-Jul-2022 04:07:30 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/dashboard dashboard
-[05-Jul-2022 04:07:30 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/dashboard dashboard
-[05-Jul-2022 04:07:30 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:07:30 Europe/Berlin] Nombre aquii
-[05-Jul-2022 04:07:30 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
-[05-Jul-2022 04:07:30 Europe/Berlin] Dasboard::construct -> inicio de Login
-[05-Jul-2022 04:07:30 Europe/Berlin] Dasboard::render -> Carga index Dashboard
-[05-Jul-2022 04:07:30 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:07:30 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:07:30 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:07:30 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:07:30 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:07:30 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:07:30 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:07:30 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:07:30 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:07:30 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:07:30 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:07:30 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:07:30 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:07:30 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:07:30 Europe/Berlin] 
-[05-Jul-2022 04:07:30 Europe/Berlin] Aqui termina la pagina
-[05-Jul-2022 04:07:30 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
-[05-Jul-2022 04:11:26 Europe/Berlin] Inicio de app web
-[05-Jul-2022 04:11:26 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[05-Jul-2022 04:11:26 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:11:26 Europe/Berlin] Nombre aquii
-[05-Jul-2022 04:11:26 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
-[05-Jul-2022 04:11:26 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/dashboard dashboard
-[05-Jul-2022 04:11:26 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/dashboard dashboard
-[05-Jul-2022 04:11:26 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:11:26 Europe/Berlin] Nombre aquii
-[05-Jul-2022 04:11:26 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
-[05-Jul-2022 04:11:26 Europe/Berlin] Dasboard::construct -> inicio de Login
-[05-Jul-2022 04:11:26 Europe/Berlin] Dasboard::render -> Carga index Dashboard
-[05-Jul-2022 04:11:26 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:11:26 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:11:26 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:11:26 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:11:26 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:11:26 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:11:26 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:11:26 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:11:26 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:11:26 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:11:26 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:11:26 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:11:26 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:11:26 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:11:26 Europe/Berlin] 
-[05-Jul-2022 04:11:26 Europe/Berlin] Aqui termina la pagina
-[05-Jul-2022 04:11:26 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
-[05-Jul-2022 04:12:26 Europe/Berlin] Inicio de app web
-[05-Jul-2022 04:12:26 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[05-Jul-2022 04:12:26 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:12:26 Europe/Berlin] Nombre aquii
-[05-Jul-2022 04:12:26 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
-[05-Jul-2022 04:12:26 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/dashboard dashboard
-[05-Jul-2022 04:12:26 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/dashboard dashboard
-[05-Jul-2022 04:12:26 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:12:26 Europe/Berlin] Nombre aquii
-[05-Jul-2022 04:12:26 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
-[05-Jul-2022 04:12:26 Europe/Berlin] Dasboard::construct -> inicio de Login
-[05-Jul-2022 04:12:26 Europe/Berlin] Dasboard::render -> Carga index Dashboard
-[05-Jul-2022 04:12:26 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:12:26 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:12:26 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:12:26 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:12:26 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:12:26 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:12:26 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:12:26 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:12:26 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:12:26 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:12:26 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:12:26 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:12:26 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:12:26 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:12:26 Europe/Berlin] 
-[05-Jul-2022 04:12:26 Europe/Berlin] Aqui termina la pagina
-[05-Jul-2022 04:12:26 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
-[05-Jul-2022 04:13:35 Europe/Berlin] Inicio de app web
-[05-Jul-2022 04:13:35 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[05-Jul-2022 04:13:35 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:13:35 Europe/Berlin] Nombre aquii
-[05-Jul-2022 04:13:35 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
-[05-Jul-2022 04:13:35 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/dashboard dashboard
-[05-Jul-2022 04:13:35 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/dashboard dashboard
-[05-Jul-2022 04:13:35 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:13:35 Europe/Berlin] Nombre aquii
-[05-Jul-2022 04:13:35 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
-[05-Jul-2022 04:13:35 Europe/Berlin] Dasboard::construct -> inicio de Login
-[05-Jul-2022 04:13:35 Europe/Berlin] Dasboard::render -> Carga index Dashboard
-[05-Jul-2022 04:13:35 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:13:35 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:13:35 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:13:35 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:13:35 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:13:35 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:13:35 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:13:35 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:13:35 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:13:35 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:13:35 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:13:35 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:13:35 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:13:35 Europe/Berlin] Conexión a BD exitosa
-[05-Jul-2022 04:13:35 Europe/Berlin] 
-[05-Jul-2022 04:13:35 Europe/Berlin] Aqui termina la pagina
-[05-Jul-2022 04:13:35 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[06-Jul-2022 01:36:18 Europe/Berlin] Inicio de app web
+[06-Jul-2022 01:36:18 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[06-Jul-2022 01:36:18 Europe/Berlin] Conexión a BD exitosa
+[06-Jul-2022 01:36:18 Europe/Berlin] Nombre aquii
+[06-Jul-2022 01:36:18 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
+[06-Jul-2022 01:36:18 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/expenses/create expenses
+[06-Jul-2022 01:36:18 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/expenses/create expenses
+[06-Jul-2022 01:36:18 Europe/Berlin] Conexión a BD exitosa
+[06-Jul-2022 01:36:18 Europe/Berlin] Nombre aquii
+[06-Jul-2022 01:36:18 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
+[06-Jul-2022 01:36:18 Europe/Berlin] Conexión a BD exitosa
+[06-Jul-2022 01:36:18 Europe/Berlin] Aqui termina la pagina
+[06-Jul-2022 01:36:18 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[06-Jul-2022 01:36:30 Europe/Berlin] Inicio de app web
+[06-Jul-2022 01:36:30 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[06-Jul-2022 01:36:30 Europe/Berlin] Conexión a BD exitosa
+[06-Jul-2022 01:36:30 Europe/Berlin] Nombre aquii
+[06-Jul-2022 01:36:30 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
+[06-Jul-2022 01:36:30 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/dashboard dashboard
+[06-Jul-2022 01:36:30 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/dashboard dashboard
+[06-Jul-2022 01:36:30 Europe/Berlin] Conexión a BD exitosa
+[06-Jul-2022 01:36:30 Europe/Berlin] Nombre aquii
+[06-Jul-2022 01:36:30 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
+[06-Jul-2022 01:36:30 Europe/Berlin] Dasboard::construct -> inicio de Login
+[06-Jul-2022 01:36:30 Europe/Berlin] Dasboard::render -> Carga index Dashboard
+[06-Jul-2022 01:36:30 Europe/Berlin] Conexión a BD exitosa
+[06-Jul-2022 01:36:30 Europe/Berlin] Conexión a BD exitosa
+[06-Jul-2022 01:36:30 Europe/Berlin] Conexión a BD exitosa
+[06-Jul-2022 01:36:30 Europe/Berlin] Conexión a BD exitosa
+[06-Jul-2022 01:36:30 Europe/Berlin] Conexión a BD exitosa
+[06-Jul-2022 01:36:30 Europe/Berlin] Conexión a BD exitosa
+[06-Jul-2022 01:36:30 Europe/Berlin] Conexión a BD exitosa
+[06-Jul-2022 01:36:30 Europe/Berlin] Conexión a BD exitosa
+[06-Jul-2022 01:36:30 Europe/Berlin] Conexión a BD exitosa
+[06-Jul-2022 01:36:30 Europe/Berlin] Conexión a BD exitosa
+[06-Jul-2022 01:36:30 Europe/Berlin] Conexión a BD exitosa
+[06-Jul-2022 01:36:30 Europe/Berlin] Conexión a BD exitosa
+[06-Jul-2022 01:36:30 Europe/Berlin] Conexión a BD exitosa
+[06-Jul-2022 01:36:30 Europe/Berlin] Conexión a BD exitosa
+[06-Jul-2022 01:36:30 Europe/Berlin] 
+[06-Jul-2022 01:36:30 Europe/Berlin] Aqui termina la pagina
+[06-Jul-2022 01:36:30 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[06-Jul-2022 01:36:31 Europe/Berlin] Inicio de app web
+[06-Jul-2022 01:36:31 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[06-Jul-2022 01:36:31 Europe/Berlin] Conexión a BD exitosa
+[06-Jul-2022 01:36:31 Europe/Berlin] Nombre aquii
+[06-Jul-2022 01:36:31 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
+[06-Jul-2022 01:36:31 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/expenses/getExpensesJSON expenses
+[06-Jul-2022 01:36:31 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/expenses/getExpensesJSON expenses
+[06-Jul-2022 01:36:31 Europe/Berlin] Conexión a BD exitosa
+[06-Jul-2022 01:36:31 Europe/Berlin] Nombre aquii
+[06-Jul-2022 01:36:31 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
+[06-Jul-2022 01:36:31 Europe/Berlin] Conexión a BD exitosa
+[06-Jul-2022 01:36:31 Europe/Berlin] PHP Warning:  Undefined variable $userId in C:\xampp\htdocs\expense\models\joinexpensescategoriesmodel.php on line 24
+[06-Jul-2022 01:36:31 Europe/Berlin] Conexión a BD exitosa
+[06-Jul-2022 01:36:31 Europe/Berlin] Conexión a BD exitosa
+[06-Jul-2022 01:36:31 Europe/Berlin] Conexión a BD exitosa
+[06-Jul-2022 01:36:31 Europe/Berlin] Aqui termina la pagina
+[06-Jul-2022 01:36:31 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[06-Jul-2022 01:36:33 Europe/Berlin] Inicio de app web
+[06-Jul-2022 01:36:33 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[06-Jul-2022 01:36:33 Europe/Berlin] Conexión a BD exitosa
+[06-Jul-2022 01:36:33 Europe/Berlin] Nombre aquii
+[06-Jul-2022 01:36:33 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
+[06-Jul-2022 01:36:33 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/expenses/create expenses
+[06-Jul-2022 01:36:33 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/expenses/create expenses
+[06-Jul-2022 01:36:33 Europe/Berlin] Conexión a BD exitosa
+[06-Jul-2022 01:36:33 Europe/Berlin] Nombre aquii
+[06-Jul-2022 01:36:33 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
+[06-Jul-2022 01:36:33 Europe/Berlin] Conexión a BD exitosa
+[06-Jul-2022 01:36:33 Europe/Berlin] Aqui termina la pagina
+[06-Jul-2022 01:36:33 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
