@@ -92,10 +92,11 @@ require_once 'classes/session.php';
             return false;
         }
 
-        function getCurrentPage(){
-            $actualLink = trim("$_SERVER[REQUEST_URI]");
-            $url = explode("/", $actualLink);
-            error_log("SESSIONCONTROLLER::getCurrentPage(): actual link-> " . $actualLink . ' ' .$url[2]);
+        private function getCurrentPage(){
+        
+            $actual_link = trim("$_SERVER[REQUEST_URI]");
+            $url = explode('/', $actual_link);
+            error_log("sessionController::getCurrentPage(): actualLink =>" . $actual_link . ", url => " . $url[2]);
             return $url[2];
         }
 

@@ -21,7 +21,7 @@
             try {
                 $query = $this->prepare('SELECT expenses.id as expense_ide, title, category_id, amount, date, id_user, categories.id, name, color FROM expenses INNER JOIN categories WHERE expenses.category_id = categories.id AND expenses.id_user = :userid ORDER BY date');
                 $query->execute([
-                    'userid' => $userId
+                    'userid' => $userid
                 ]);
                 while($p = $query->fetch(PDO::FETCH_ASSOC)){
                     $item = new JoinExpensesCategoriesModel();

@@ -22,6 +22,7 @@
         }
 
         function newExpense(){
+            error_log("Expenses::newExpense()");
             if(!$this->existPost(['title', 'amount', 'category', 'date'])){
                 $this->redirect('dashboard', []); //TODO: Error
                 return;

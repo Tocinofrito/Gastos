@@ -1,72 +1,117 @@
-[06-Jul-2022 01:36:18 Europe/Berlin] Inicio de app web
-[06-Jul-2022 01:36:18 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[06-Jul-2022 01:36:18 Europe/Berlin] Conexión a BD exitosa
-[06-Jul-2022 01:36:18 Europe/Berlin] Nombre aquii
-[06-Jul-2022 01:36:18 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
-[06-Jul-2022 01:36:18 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/expenses/create expenses
-[06-Jul-2022 01:36:18 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/expenses/create expenses
-[06-Jul-2022 01:36:18 Europe/Berlin] Conexión a BD exitosa
-[06-Jul-2022 01:36:18 Europe/Berlin] Nombre aquii
-[06-Jul-2022 01:36:18 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
-[06-Jul-2022 01:36:18 Europe/Berlin] Conexión a BD exitosa
-[06-Jul-2022 01:36:18 Europe/Berlin] Aqui termina la pagina
-[06-Jul-2022 01:36:18 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
-[06-Jul-2022 01:36:30 Europe/Berlin] Inicio de app web
-[06-Jul-2022 01:36:30 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[06-Jul-2022 01:36:30 Europe/Berlin] Conexión a BD exitosa
-[06-Jul-2022 01:36:30 Europe/Berlin] Nombre aquii
-[06-Jul-2022 01:36:30 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
-[06-Jul-2022 01:36:30 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/dashboard dashboard
-[06-Jul-2022 01:36:30 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/dashboard dashboard
-[06-Jul-2022 01:36:30 Europe/Berlin] Conexión a BD exitosa
-[06-Jul-2022 01:36:30 Europe/Berlin] Nombre aquii
-[06-Jul-2022 01:36:30 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
-[06-Jul-2022 01:36:30 Europe/Berlin] Dasboard::construct -> inicio de Login
-[06-Jul-2022 01:36:30 Europe/Berlin] Dasboard::render -> Carga index Dashboard
-[06-Jul-2022 01:36:30 Europe/Berlin] Conexión a BD exitosa
-[06-Jul-2022 01:36:30 Europe/Berlin] Conexión a BD exitosa
-[06-Jul-2022 01:36:30 Europe/Berlin] Conexión a BD exitosa
-[06-Jul-2022 01:36:30 Europe/Berlin] Conexión a BD exitosa
-[06-Jul-2022 01:36:30 Europe/Berlin] Conexión a BD exitosa
-[06-Jul-2022 01:36:30 Europe/Berlin] Conexión a BD exitosa
-[06-Jul-2022 01:36:30 Europe/Berlin] Conexión a BD exitosa
-[06-Jul-2022 01:36:30 Europe/Berlin] Conexión a BD exitosa
-[06-Jul-2022 01:36:30 Europe/Berlin] Conexión a BD exitosa
-[06-Jul-2022 01:36:30 Europe/Berlin] Conexión a BD exitosa
-[06-Jul-2022 01:36:30 Europe/Berlin] Conexión a BD exitosa
-[06-Jul-2022 01:36:30 Europe/Berlin] Conexión a BD exitosa
-[06-Jul-2022 01:36:30 Europe/Berlin] Conexión a BD exitosa
-[06-Jul-2022 01:36:30 Europe/Berlin] Conexión a BD exitosa
-[06-Jul-2022 01:36:30 Europe/Berlin] 
-[06-Jul-2022 01:36:30 Europe/Berlin] Aqui termina la pagina
-[06-Jul-2022 01:36:30 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
-[06-Jul-2022 01:36:31 Europe/Berlin] Inicio de app web
-[06-Jul-2022 01:36:31 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[06-Jul-2022 01:36:31 Europe/Berlin] Conexión a BD exitosa
-[06-Jul-2022 01:36:31 Europe/Berlin] Nombre aquii
-[06-Jul-2022 01:36:31 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
-[06-Jul-2022 01:36:31 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/expenses/getExpensesJSON expenses
-[06-Jul-2022 01:36:31 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/expenses/getExpensesJSON expenses
-[06-Jul-2022 01:36:31 Europe/Berlin] Conexión a BD exitosa
-[06-Jul-2022 01:36:31 Europe/Berlin] Nombre aquii
-[06-Jul-2022 01:36:31 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
-[06-Jul-2022 01:36:31 Europe/Berlin] Conexión a BD exitosa
-[06-Jul-2022 01:36:31 Europe/Berlin] PHP Warning:  Undefined variable $userId in C:\xampp\htdocs\expense\models\joinexpensescategoriesmodel.php on line 24
-[06-Jul-2022 01:36:31 Europe/Berlin] Conexión a BD exitosa
-[06-Jul-2022 01:36:31 Europe/Berlin] Conexión a BD exitosa
-[06-Jul-2022 01:36:31 Europe/Berlin] Conexión a BD exitosa
-[06-Jul-2022 01:36:31 Europe/Berlin] Aqui termina la pagina
-[06-Jul-2022 01:36:31 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
-[06-Jul-2022 01:36:33 Europe/Berlin] Inicio de app web
-[06-Jul-2022 01:36:33 Europe/Berlin] SESSIONCONTROLLER::validateSession
-[06-Jul-2022 01:36:33 Europe/Berlin] Conexión a BD exitosa
-[06-Jul-2022 01:36:33 Europe/Berlin] Nombre aquii
-[06-Jul-2022 01:36:33 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
-[06-Jul-2022 01:36:33 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/expenses/create expenses
-[06-Jul-2022 01:36:33 Europe/Berlin] SESSIONCONTROLLER::getCurrentPage(): actual link-> /expense/expenses/create expenses
-[06-Jul-2022 01:36:33 Europe/Berlin] Conexión a BD exitosa
-[06-Jul-2022 01:36:33 Europe/Berlin] Nombre aquii
-[06-Jul-2022 01:36:33 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
-[06-Jul-2022 01:36:33 Europe/Berlin] Conexión a BD exitosa
-[06-Jul-2022 01:36:33 Europe/Berlin] Aqui termina la pagina
-[06-Jul-2022 01:36:33 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[10-Jul-2022 08:31:02 Europe/Berlin] Inicio de app web
+[10-Jul-2022 08:31:02 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[10-Jul-2022 08:31:02 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:31:02 Europe/Berlin] Nombre aquii
+[10-Jul-2022 08:31:02 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
+[10-Jul-2022 08:31:02 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/expense/dashboard, url => dashboard
+[10-Jul-2022 08:31:02 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/expense/dashboard, url => dashboard
+[10-Jul-2022 08:31:02 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:31:02 Europe/Berlin] Nombre aquii
+[10-Jul-2022 08:31:02 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
+[10-Jul-2022 08:31:02 Europe/Berlin] Dasboard::construct -> inicio de Login
+[10-Jul-2022 08:31:02 Europe/Berlin] Dasboard::render -> Carga index Dashboard
+[10-Jul-2022 08:31:02 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:31:02 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:31:02 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:31:02 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:31:02 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:31:02 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:31:02 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:31:02 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:31:02 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:31:02 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:31:02 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:31:02 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:31:02 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:31:02 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:31:02 Europe/Berlin] 
+[10-Jul-2022 08:31:02 Europe/Berlin] Aqui termina la pagina
+[10-Jul-2022 08:31:02 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[10-Jul-2022 08:31:03 Europe/Berlin] Inicio de app web
+[10-Jul-2022 08:31:03 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[10-Jul-2022 08:31:03 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:31:03 Europe/Berlin] Nombre aquii
+[10-Jul-2022 08:31:03 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
+[10-Jul-2022 08:31:03 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/expense/expenses/getExpensesJSON, url => expenses
+[10-Jul-2022 08:31:03 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/expense/expenses/getExpensesJSON, url => expenses
+[10-Jul-2022 08:31:03 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:31:03 Europe/Berlin] Nombre aquii
+[10-Jul-2022 08:31:03 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
+[10-Jul-2022 08:31:03 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:31:03 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:31:03 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:31:03 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:31:03 Europe/Berlin] Aqui termina la pagina
+[10-Jul-2022 08:31:03 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[10-Jul-2022 08:32:21 Europe/Berlin] Inicio de app web
+[10-Jul-2022 08:32:21 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[10-Jul-2022 08:32:21 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:32:21 Europe/Berlin] Nombre aquii
+[10-Jul-2022 08:32:21 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
+[10-Jul-2022 08:32:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/expense/expenses/create, url => expenses
+[10-Jul-2022 08:32:21 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/expense/expenses/create, url => expenses
+[10-Jul-2022 08:32:21 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:32:21 Europe/Berlin] Nombre aquii
+[10-Jul-2022 08:32:21 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
+[10-Jul-2022 08:32:21 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:32:21 Europe/Berlin] Aqui termina la pagina
+[10-Jul-2022 08:32:21 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[10-Jul-2022 08:36:24 Europe/Berlin] Inicio de app web
+[10-Jul-2022 08:36:24 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[10-Jul-2022 08:36:24 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:36:24 Europe/Berlin] Nombre aquii
+[10-Jul-2022 08:36:24 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
+[10-Jul-2022 08:36:24 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/expense/expenses/newExpense, url => expenses
+[10-Jul-2022 08:36:24 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/expense/expenses/newExpense, url => expenses
+[10-Jul-2022 08:36:24 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:36:24 Europe/Berlin] Nombre aquii
+[10-Jul-2022 08:36:24 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
+[10-Jul-2022 08:36:24 Europe/Berlin] Expenses::newExpense()
+[10-Jul-2022 08:36:24 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:36:24 Europe/Berlin] Aqui termina la pagina
+[10-Jul-2022 08:36:24 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[10-Jul-2022 08:36:25 Europe/Berlin] Inicio de app web
+[10-Jul-2022 08:36:25 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[10-Jul-2022 08:36:25 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:36:25 Europe/Berlin] Nombre aquii
+[10-Jul-2022 08:36:25 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
+[10-Jul-2022 08:36:25 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/expense/dashboard, url => dashboard
+[10-Jul-2022 08:36:25 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/expense/dashboard, url => dashboard
+[10-Jul-2022 08:36:25 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:36:25 Europe/Berlin] Nombre aquii
+[10-Jul-2022 08:36:25 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
+[10-Jul-2022 08:36:25 Europe/Berlin] Dasboard::construct -> inicio de Login
+[10-Jul-2022 08:36:25 Europe/Berlin] Dasboard::render -> Carga index Dashboard
+[10-Jul-2022 08:36:25 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:36:25 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:36:25 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:36:25 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:36:25 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:36:25 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:36:25 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:36:25 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:36:25 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:36:25 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:36:25 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:36:25 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:36:25 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:36:25 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:36:25 Europe/Berlin] 
+[10-Jul-2022 08:36:25 Europe/Berlin] Aqui termina la pagina
+[10-Jul-2022 08:36:25 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
+[10-Jul-2022 08:36:26 Europe/Berlin] Inicio de app web
+[10-Jul-2022 08:36:26 Europe/Berlin] SESSIONCONTROLLER::validateSession
+[10-Jul-2022 08:36:26 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:36:26 Europe/Berlin] Nombre aquii
+[10-Jul-2022 08:36:26 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
+[10-Jul-2022 08:36:26 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/expense/expenses/getExpensesJSON, url => expenses
+[10-Jul-2022 08:36:26 Europe/Berlin] sessionController::getCurrentPage(): actualLink =>/expense/expenses/getExpensesJSON, url => expenses
+[10-Jul-2022 08:36:26 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:36:26 Europe/Berlin] Nombre aquii
+[10-Jul-2022 08:36:26 Europe/Berlin] SESSIONCONTROLLER::getUserSessionData -> nelson2
+[10-Jul-2022 08:36:26 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:36:26 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:36:26 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:36:26 Europe/Berlin] Conexión a BD exitosa
+[10-Jul-2022 08:36:26 Europe/Berlin] Aqui termina la pagina
+[10-Jul-2022 08:36:26 Europe/Berlin] --------------------------------------------------------------------------------------------------------------------------
