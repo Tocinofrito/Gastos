@@ -39,7 +39,6 @@
             $expense->setCategoryId($this->getPost('category'));
             $expense->setDate($this->getPost('date'));
             $expense->setUserId($this->user->getId());
-
             $expense->save();
             $this->redirect('dashboard', []); //TODO:success
         }

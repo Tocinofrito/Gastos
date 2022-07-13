@@ -30,12 +30,11 @@ class ExpensesModel extends Model implements IModel{
 
     public function save(){
         try {
-            $query = $this->prepare('INSERT INTO expenses (title, amount, category_id, date, id_user) VALUES(:title, :amount, :category, :d, :id, :user)');
-            $query->execute([
+            $query = $this->prepare('INSERT INTO expenses (title, amount, category_id, date, id_user) VALUES(:title, :amount, :category, :d, :user)');            $query->execute([
                 'title' => $this->title,
                 'amount' => $this->amount,
-                'category' => $this->category,
-                'user' => $this->user,
+                'category' => $this->categoryid,
+                'user' => $this->userid,
                 'd'      => $this->date
             ]);
             if($query->rowCount()){

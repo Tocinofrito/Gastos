@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="<?php echo constant('URL'); ?>public/css/expense.css">
 
 
-<form id="form-expense-container" action="expenses/newExpense" method="POST">
+<form id="form-expense-container" action="<?php echo constant('URL')?>expenses/newExpense" method="POST">
     <h3>Registrar nuevo gasto</h3>
     <div class="section">
         <label for="amount">Cantidad</label>
