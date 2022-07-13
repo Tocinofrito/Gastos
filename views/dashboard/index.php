@@ -36,7 +36,7 @@
                             <div class="total-expense">
                                 <?php
                                     if($totalThisMonth === NULL){
-                                        showError('Hubo un problema al cargar la información');
+                                        $this->showError('Hubo un problema al cargar la información');
                                     }else{?>
                                         <span class="<?php echo ($user->getBudget() < $totalThisMonth)? 'broken': '' ?>">$<?php
                                         echo number_format($totalThisMonth, 2);?>

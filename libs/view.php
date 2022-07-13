@@ -9,8 +9,9 @@ class View{
         $this->d = $data;
         //Manejaremos los mensajes si vieenen por parámetro
         $this->handleMessages();
-        
+        error_log('views/' . $nombre . 'php');
         require 'views/' . $nombre . '.php';
+        
     }
 
     //Comprobamos si existe algún error o succes
@@ -47,12 +48,12 @@ class View{
 
     public function showMessages(){
 
-        $this->showErrors();
+        $this->showError();
         $this->showSuccess();
 
     }
 
-    public function showErrors(){
+    public function showError(){
         if(array_key_exists('error', $this->d)){
             echo '<div class="error">'.$this->d['error'].'</div>';
         }
